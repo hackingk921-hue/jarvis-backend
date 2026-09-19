@@ -1,0 +1,14 @@
+{
+  "name": "jarvis-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local src/server.mjs",
+    "prod": "node src/server.mjs",
+    "dev": "node --watch --env-file-if-exists=.env.local src/server.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
+

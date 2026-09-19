@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: jarvis-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run prod
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.6-flash
+      - key: JARVIS_LOGIN_ID
+        value: jarvis@owner.ai
+      - key: JARVIS_PASSWORD_HASH
+        value: 03260ecd502b591c86128ab247dbf384:22e8ddd224363b5a1d2c4139ae7b187db258effc0bf6ee0811cd1aedcf38e270c321481d8c06885403967ab32220fd1c1b7f4b226e5aacbe36d63d388ecb199d
+      - key: TOKEN_SECRET
+        generateValue: true
+      - key: ALLOWED_ORIGIN
+        value: "*"
