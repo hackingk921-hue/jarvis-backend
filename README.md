@@ -14,7 +14,7 @@ Private Node.js AI backend for the JARVIS mobile voice assistant, powered by Goo
 
 You can host this server **24/7 for FREE** on Render.com without keeping your laptop on.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/hackingk921-hue/jarvis-backend)
 
 ### Manual Steps on Render.com:
 1. Log into [Render.com](https://render.com) using your GitHub account (`hackingk921-hue`).
